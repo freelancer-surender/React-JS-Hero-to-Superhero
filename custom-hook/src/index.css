@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #023047;
+  color: #fff;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  width: 120px;
+  text-align: right;
+  color: #fff;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+
+.homeText {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #023047;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.homeText:focus {
+  outline: none;
+  border-color: #ffb703;
+}
+
+.homeBtn {
+  padding: 10px 40px;
+  background-color: #023047;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: 2px solid #023047;
+}
+
+.homeBtn:hover {
+  background-color: #fff;
+  color: #023047;
+}
+
+.items {
+  padding-left: 80px;
+}
+
+.heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.name, .email {
+  width: 350px;
+}
+
+.email, .title {
+  color: #c1121f;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  color: #219ebc;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  color: #c1121f;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.storage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+
+.storageBtn {
+  padding: 10px 40px;
+  background-color: #023047;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: 2px solid #023047;
+}
+
+.storageBtn:hover {
+  background-color: #fff;
+  color: #023047;
+}
+
+.country {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
